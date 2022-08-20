@@ -1,0 +1,31 @@
+.opinion {
+	margin-top: 55px;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__foodandvine {
+		width: 330px;
+		text-align: center;
+		&-logo {
+			margin-top: 36px;
+		}
+	}
+	&__newyorktimes {
+		width: 330px;
+		text-align: center;
+		&-logo {
+			margin-top: 36px;
+		}
+	}
+	&__bonapetit {
+		text-align: center;
+		width: 330px;
+		&-logo {
+			margin-top: 36px;
+		}
+	}
+	&__divider {
+		margin-top: 42px;
+	}
+}

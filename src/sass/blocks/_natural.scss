@@ -1,0 +1,125 @@
+.natural {
+	margin-top: 106px;
+	&__header {
+		text-align: center;
+		font-family: "Liberation Serif";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 64px;
+		line-height: 80px;
+		color: #000000;
+		width: 673px;
+		height: 160px;
+		margin: 0 auto;
+	}
+	&__shopAll {
+		text-align: center;
+		font-weight: 400;
+		font-size: 12px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #000000;
+		margin-top: 30px;
+	}
+	&__wrapper {
+		margin-top: 80px;
+		display: flex;
+		justify-content: space-around;
+	}
+	&__sampler {
+		width: 382px;
+		&-text {
+			font-family: "Liberation Serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 30px;
+			line-height: 44px;
+			text-align: center;
+			color: #000000;
+			margin-top: 19px;
+		}
+		&-descr {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 28px;
+			text-align: center;
+			color: #000000;
+			margin-top: 16px;
+		}
+		&-btn {
+			display: block;
+			font-weight: 400;
+			font-size: 12px;
+			text-align: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: #ffffff;
+			margin: 27px auto 0;
+		}
+	}
+	&__grapefruit {
+		width: 382px;
+		&-text {
+			margin-top: 19px;
+			font-family: "Liberation Serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 31px;
+			line-height: 44px;
+			text-align: center;
+			color: #000000;
+		}
+		&-descr {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 28px;
+			text-align: center;
+			color: #000000;
+			margin-top: 16px;
+		}
+		&-btn {
+			display: block;
+			font-weight: 400;
+			font-size: 12px;
+			text-align: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: #ffffff;
+			margin: 27px auto 0;
+		}
+	}
+	&__orange {
+		width: 382px;
+		&-text {
+			margin-top: 19px;
+			font-family: "Liberation Serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 31px;
+			line-height: 44px;
+			text-align: center;
+			color: #000000;
+		}
+		&-descr {
+			margin-top: 16px;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 28px;
+			text-align: center;
+			color: #000000;
+		}
+		&-btn {
+			display: block;
+			font-weight: 400;
+			font-size: 12px;
+			text-align: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: #ffffff;
+			margin: 27px auto 0;
+		}
+	}
+	&__divider {
+		margin-top: 142px;
+	}
+}

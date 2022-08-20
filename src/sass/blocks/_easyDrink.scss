@@ -1,0 +1,61 @@
+.easyDrink {
+	margin-top: 61px;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		img {
+			width: 880px;
+		}
+	}
+	&__text {
+		margin-top: 113px;
+		width: 385px;
+		&-main {
+			font-family: "Liberation Serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 30px;
+			line-height: 44px;
+			color: #000000;
+		}
+		&-mainDescr {
+			margin-top: 19px;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 32px;
+			color: #000000;
+		}
+		&-naturalMain {
+			font-family: "Liberation Serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 36px;
+			line-height: 44px;
+			color: #000000;
+			margin-top: 26px;
+		}
+		&-naturalMainDescr {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 32px;
+			color: #000000;
+			margin-top: 17px;
+		}
+		&-deliver {
+			font-family: "Liberation Serif";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 30px;
+			line-height: 44px;
+			color: #000000;
+			margin-top: 25px;
+		}
+		&-deliverDescr {
+			margin-top: 19px;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 32px;
+			color: #000000;
+		}
+	}
+}

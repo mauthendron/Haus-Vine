@@ -1,0 +1,29 @@
+.aperetifs {
+	margin-top: 60px;
+	img {
+		height: 560px;
+	}
+	&__wrapper {
+		margin-top: 55px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__text {
+		font-family: "Liberation Serif";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 53px;
+		line-height: 80px;
+		color: #000000;
+	}
+	&__descr {
+		width: 548px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 32px;
+		color: #000000;
+	}
+	&__divider {
+		margin-top: 95px;
+	}
+}

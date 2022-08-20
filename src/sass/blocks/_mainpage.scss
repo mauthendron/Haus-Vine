@@ -1,0 +1,69 @@
+.mainpage {
+	background-color: #996b60;
+	position: relative;
+	height: 800px;
+	z-index: 2;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__wrapper-left {
+		display: flex;
+		justify-content: space-between;
+		width: 350px;
+	}
+	&__wrapper-right {
+		display: flex;
+		justify-content: space-between;
+		width: 372px;
+	}
+	&__nav-item {
+		font-weight: 400;
+		font-size: 12px;
+		color: #fff;
+		text-transform: uppercase;
+		margin-top: 40px;
+	}
+	&__nav-logo {
+		position: absolute;
+		left: 50%;
+		z-index: -1;
+		transform: translateX(-50%);
+		margin-top: 25px;
+	}
+	&__mainimg {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 800px;
+		z-index: -2;
+	}
+	&__alcohol {
+		margin-top: 254px;
+		margin-left: 780px;
+		font-family: "Liberation Serif";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 73px;
+		line-height: 96px;
+		color: #fff;
+		&-descr {
+			margin-top: 66px;
+			margin-left: 780px;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 32px;
+			color: #ffffff;
+			width: 552px;
+		}
+	}
+	&__btn {
+		margin-top: 50px;
+		margin-left: 780px;
+		background-color: #996b60;
+		border-color: #fff;
+		width: 180px;
+		height: 52px;
+		border: 1px solid #fff;
+	}
+}

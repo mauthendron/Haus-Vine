@@ -1,0 +1,11 @@
+.shipping {
+	background-color: black;
+	height: 50px;
+	&__text {
+		color: #fff;
+		height: 18px;
+		text-align: center;
+		padding-top: 16px;
+		font-size: 14px;
+	}
+}
