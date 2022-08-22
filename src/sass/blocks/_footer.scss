@@ -89,7 +89,7 @@
 			&-follow {
 				display: flex;
 				flex-direction: column;
-				justify-content: space-between;
+				justify-content: start;
 				& a {
 					text-decoration: none;
 					&:hover {
@@ -116,7 +116,7 @@
 			&-drop {
 				display: flex;
 				flex-direction: column;
-				justify-content: space-between;
+				justify-content: start;
 				&-mail {
 					padding-top: 21px;
 					font-weight: 400;

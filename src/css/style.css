@@ -965,7 +965,7 @@ template {
 .contacts__wrapper-items-follow {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
 }
 .contacts__wrapper-items-follow a {
   text-decoration: none;
@@ -992,7 +992,7 @@ template {
 .contacts__wrapper-items-drop {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: start;
 }
 .contacts__wrapper-items-drop-mail {
   padding-top: 21px;
